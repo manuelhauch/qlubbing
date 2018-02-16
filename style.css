@@ -45,6 +45,11 @@ body{
 	font-size:23px;
 }
 
+.h4,h4{
+	font-size:18px;
+	margin-bottom:20px;
+}
+
 /*---start-wrap---*/
 .wrap{
 	width: 100%;
@@ -219,6 +224,22 @@ body{
 	background-color: #232323;
 	color: #ffffff;
 	text-align:left;	
+}
+
+.boxing-one{
+	border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #ef2d56;
+}
+
+.boxing-two{
+	border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #3A494C;
 }
 
 .queue{
