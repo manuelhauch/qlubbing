@@ -13,7 +13,7 @@ function getQueue() {
         items[i] = new Array();
           items[i].push( "<li id='queue'> Queue: " + data.clubs[i].queue + "</li>" );
           items[i].push( "<li id='visitors'> Visitors: "+ data.clubs[i].visitors + "</li>" );
-          items[i].push( "<li id='lastUpdate'> Last Updated: " + new Date().toLocaleString() + "</li>" );
+          items[i].push( "<li id='lastUpdate'> Last Updated: " + data.clubs[i].lastUpdate + "</li>" );
       }
 
       $("#e-pub-queue").html('');
