@@ -12,7 +12,6 @@
 
 	<title>Qlubbing</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-	<link rel="shortcut icon" type="image/x-icon" href="img/AppIcon.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
 	<link rel="stylesheet" th:href="@{style.css}"
@@ -23,6 +22,21 @@
 </head>
 
 <body>
+		<div class="emailBar">
+			<form id="gform" class="input-form-one" method="POST"
+				action="https://script.google.com/macros/s/AKfycbyURS_mUCqZ_uaaj_lbGrFtlKLyanZLrrFybW96a8l52zPZFr8/exec">
+				<div class="form-group">
+						
+					<input name="email" type="email" class="form-control email-input-one"
+							 placeholder="Subscribe" required="required" />
+					<button type="submit" class="sign-up-btn-two">Send</button>
+				</div>
+			</form>
+		<div style="display:none;" id="thankyou_message" class="register-head thanks_one">
+				You are awesome! You'll receive more informations about
+				the android app in a week or two!
+			</div>
+		</div>
 	<!-- start-wrap -->
 		<div class="wrap">
 			<!-- start introducing-TheVaipe -->
@@ -218,7 +232,9 @@
 			</div>
 			<br/><br/><br/><br/><br/><br/>
 		</div>
+		
 
+		
 		<div class="footer">
 			<div class="footer-box">
 				<div class="copyright">

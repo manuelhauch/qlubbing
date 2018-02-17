@@ -273,7 +273,10 @@ body{
 .thanks{
 	font-weight: bold;
 }
-
+.thanks_one{
+	font-weight: bold;
+	padding-top: 5px;
+}
 .register-head h2{
 	font-size: 5vw;
 	font-weight: bold;
@@ -289,13 +292,18 @@ body{
 	text-align:center;
 	margin-top: 15px;
 }
-
-
-.email-input{
-	width: 250px;
-	padding: 10px;
+.input-form-one{
+	text-align:center;
 }
 
+.email-input{
+	width: 30vw;
+	padding: 10px;
+}
+.email-input-one{
+	width: 40vw;
+	padding: 10px;
+}
 .sign-up-btn{
 	width:100px;
 	background: #ef2d56; 
@@ -307,6 +315,16 @@ body{
 	border-radius: 2px;
 }
 
+.sign-up-btn-two{
+	width:80px;
+	background: #353535; 
+	color:white;
+	margin: 10px auto;
+	letter-spacing: .3px;
+	padding: 12px 10px;
+	border-width:0px;
+	border-radius: 2px;
+}
 .sign-up-btn:active {
   background-color: #ef2d56;
   box-shadow: 0 5px #666;
@@ -378,6 +396,16 @@ body{
 	display: inline-block;
 	background: url('img/AppIcon.png') no-repeat;
 	background-size:cover;
+}
+
+.emailBar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ef2d56;
+    color: white;
+    text-align: center;
 }
 
 
