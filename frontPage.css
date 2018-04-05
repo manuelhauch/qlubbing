@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -14,12 +14,13 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .btn-xl {
@@ -50,6 +51,8 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  letter-spacing: 3px;
+  font-family: 'Prompt', sans-serif;
 }
 
 section h3.section-subheading {
@@ -58,19 +61,27 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 #mainNav {
   background-color: #212529;
   }
+
 
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -83,6 +94,7 @@ section h3.section-subheading {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Logo picture no highlighting needed
 #mainNav .navbar-brand {
   color: #fed136;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
@@ -92,22 +104,51 @@ section h3.section-subheading {
   color: #fec503;
 }
 
+*/
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ef2d56;
+}
+
+@media (max-width: 991px){
+	#mainNav .navbar-brand{
+	hight: 50px;
+	width: 50px;
+	}
+	
+}
+
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition:  0.3s all;
+    transform:scale(1.0); 
     border: none;
     /* change background color back to transparent if needed */
-    background-color: black;
+    background-color: #212529;
+    
   }
+  
+
+  
   #mainNav .navbar-brand {
-    font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    	hight: 80px;
+	width: 80px;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -118,18 +159,18 @@ section h3.section-subheading {
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
+    padding: 0px 0;
+    transform:scale(0.6);
   }
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ef2d56;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ef2d56;
   text-shadow: none;
 }
 
@@ -165,15 +206,14 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 17px;
   font-weight: 700;
-
   margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -186,13 +226,13 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
@@ -220,6 +260,13 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.bg-black{
+	background-color:black;
+}
+
+.color-dark-grey{
+	color:#A0A09;	
+}
 
 section#contact .form-group {
   margin-bottom: 25px;
@@ -243,9 +290,10 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 
+/* #ced4da */
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #ced4da ;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
