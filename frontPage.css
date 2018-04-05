@@ -119,7 +119,7 @@ section h3.section-subheading {
   color: #ef2d56;
 }
 
-@media (max-width: 991px){
+@media (min-width: 61px){
 	#mainNav .navbar-brand{
 	hight: 50px;
 	width: 50px;
