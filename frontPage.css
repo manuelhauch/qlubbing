@@ -137,7 +137,7 @@ section h3.section-subheading {
     transform:scale(1.0); 
     border: none;
     /* change background color back to transparent if needed */
-    background-color: black;    
+    background-color: rgba(0,0,0,0.7);    
   }
 
   
@@ -182,8 +182,8 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: black;
-  background-image: url("img/test.jpg");
+  color: white;
+  background-image: url("img/queue1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
