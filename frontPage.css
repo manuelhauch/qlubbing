@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Prompt', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', 'Lato' 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -40,7 +40,7 @@ h6 {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 254, 254, 0.5) !important;
 }
 
 section {
@@ -79,7 +79,7 @@ section h3.section-subheading {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: black;
   }
 
 
@@ -137,10 +137,8 @@ section h3.section-subheading {
     transform:scale(1.0); 
     border: none;
     /* change background color back to transparent if needed */
-    background-color: #212529;
-    
+    background-color: black;    
   }
-  
 
   
   #mainNav .navbar-brand {
@@ -151,12 +149,12 @@ section h3.section-subheading {
 	width: 80px;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 1.1em 1.8em !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     padding: 0px 0;
@@ -202,18 +200,19 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 70px;
-  font-style: italic;
+  font-size: 4em;
+  font-style: ;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 17px;
+  font-size: 0.8em;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.7px;
 }
 
 @media (min-width: 768px) {
@@ -222,20 +221,41 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 70px;
-    font-style: italic;
+    font-size: 100px;
+    font-style: ;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 50px;
     font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     letter-spacing: 0.7px;
   }
 }
 
+.about-description{
+	text-align:justify;
+	letter-spacing: 0.18em;
+	padding-bottom: 50px;
+}
+
+.bg-pink{
+	background-color: #ef2d56;
+}
+
+
+.text-blink {
+    color: black!important;
+}
+
+.pic-position{
+	text-align:center;
+	vertical-align:center;
+}
 
 .team-member {
   margin-bottom: 50px;
@@ -286,7 +306,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #ced4da;
   box-shadow: none;
 }
 
@@ -335,6 +355,7 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align:center;
 }
 
 ul.social-buttons {
