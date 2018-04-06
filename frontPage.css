@@ -183,7 +183,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("img/queue_small.jpg");
+  background-image: url("img/option1.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -285,7 +285,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .color-dark-grey{
-	color:#A0A09;	
+	color:#A0A09F;	
 }
 
 section#contact .form-group {
