@@ -17,20 +17,7 @@ function getQueue() {
         html: items
       }).appendTo( "#e-pub-queue");
     });
-	
-	/*Origo*/
-	$.getJSON("https://jexhnkj8y0.execute-api.eu-central-1.amazonaws.com/beta1/count?clubId=Origo",{callback: "?"}, function (data) {
 
-      var items = "<li id='queue'> Queue Time: " + data.queueingTime + "</li>";
-	  items += "<li id='visitors'> Visitors: "+ parseAPIResult(data.currentVisitors,false) + "</li>" ;
-	  items += "<li id='lastUpdate'> Last Updated: " + parseAPIResult(data.lastUpdated,true) + "</li>";
-       
-      $("#origo-queue").html('');
-      $( "<ul/>", {
-        html: items
-      }).appendTo( "#origo-queue");
-    });
-	
 	
 	/*Villan*/
 	$.getJSON("https://jexhnkj8y0.execute-api.eu-central-1.amazonaws.com/beta1/count?clubId=Villan",{callback: "?"}, function (data) {
