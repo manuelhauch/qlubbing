@@ -288,6 +288,10 @@ header.masthead .intro-text .intro-heading {
 	color:#A0A09F;	
 }
 
+.contact-subheading{
+	text-align:justify;
+}
+
 section#contact .form-group {
   margin-bottom: 25px;
 }
