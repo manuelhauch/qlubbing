@@ -124,7 +124,7 @@ section h3.section-subheading {
 	hight: 50px;
 	width: 50px;
 	}
-	
+
 }
 
 @media (min-width: 992px) {
@@ -134,13 +134,13 @@ section h3.section-subheading {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition:  0.3s all;
-    transform:scale(1.0); 
+    transform:scale(1.0);
     border: none;
     /* change background color back to transparent if needed */
-    background-color: rgba(0,0,0,0.7);    
+    background-color: rgba(0,0,0,0.7);
   }
 
-  
+
   #mainNav .navbar-brand {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -262,13 +262,9 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-/*
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+    border-radius: 50%;
 }
-*/
 
 .team-member h4 {
   margin-top: 25px;
@@ -285,7 +281,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .color-dark-grey{
-	color:#A0A09F;	
+	color:#A0A09F;
 }
 
 .contact-subheading{
