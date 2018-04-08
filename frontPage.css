@@ -243,6 +243,10 @@ header.masthead .intro-text .intro-heading {
 	padding-bottom: 50px;
 }
 
+section#clubs h2{
+  margin-bottom: 2em;
+}
+
 .bg-pink{
 	background-color: #ef2d56;
 }
