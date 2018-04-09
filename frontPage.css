@@ -236,7 +236,9 @@ header.masthead .intro-text .intro-heading {
      letter-spacing: 0.7px;
   }
 }
-
+.bg-white-pink{
+  background: linear-gradient( white 70%, #ef2d56 30.001%);
+}
 .about-description{
 	text-align:justify;
 	letter-spacing: 0.18em;
