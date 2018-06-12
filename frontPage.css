@@ -50,7 +50,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 2em;
   letter-spacing: 3px;
   font-family: 'Prompt', sans-serif;
 }
@@ -236,15 +236,13 @@ header.masthead .intro-text .intro-heading {
      letter-spacing: 0.7px;
   }
 }
-
+.bg-white-pink{
+  background: linear-gradient( white 70%, #ef2d56 30.001%);
+}
 .about-description{
 	text-align:justify;
 	letter-spacing: 0.18em;
 	padding-bottom: 50px;
-}
-
-section#clubs h2{
-  margin-bottom: 2em;
 }
 
 .bg-pink{
