@@ -411,14 +411,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .email-input-one{
   display: block;
-	width: 40vw;
+	width: 38vw;
   padding: 10px;
 	border-radius: .25rem;
 }
 
 .sign-up-btn-two{
   display: block;
-	width:80px;
+	width:70px;
 	background: #353535; 
 	color:white;
 	margin: 10px;
@@ -426,4 +426,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	padding: 12px 10px;
 	border-width:0px;
 	border-radius: .25rem;
+}
+
+.sign-up-btn-two:active, .sign-up-btn-two:focus, .sign-up-btn-two:hover {
+  background-color: white !important;
+  border-color: white !important;
+  color: black;
+}
+
+.sign-up-btn-two:active, .sign-up-btn-two:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 254, 254, 0.5) !important;
 }

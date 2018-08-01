@@ -56,13 +56,18 @@
 
 <body>
   <!--Subscribe layer-->
-  <div class="emailBar fixed-bottom ">
-    <form id="gform" class="form-inline mx-auto" method="POST"
-      action="https://script.google.com/macros/s/AKfycbyURS_mUCqZ_uaaj_lbGrFtlKLyanZLrrFybW96a8l52zPZFr8/exec">
-        <input name="email" type="email" class="email-input-one"
-             placeholder="Subscribe" required="required" />
-        <button type="submit" class="sign-up-btn-two">Send</button>
-    </form>
+  <div id="emailBar" class="emailBar fixed-bottom ">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-10">  
+        <form id="gform" class="form-inline mx-auto" method="POST"
+            action="https://script.google.com/macros/s/AKfycbyURS_mUCqZ_uaaj_lbGrFtlKLyanZLrrFybW96a8l52zPZFr8/exec">
+              <input name="email" type="email" class="email-input-one"
+                  placeholder="Subscribe" required="required" />
+              <button type="submit" class="sign-up-btn-two">Send</button>
+          </form>
+      </div>
+  </div>
     <div style="display:none;" id="thankyou_message" class="register-head thanks_one">
       You are awesome! You'll receive more informations about
       the android app in a week or two!
@@ -137,11 +142,20 @@
         <div class="row">
           <div class="col-lg-7 mx-auto text-center">
             <p class="about-description">
-            Going out should be about having fun with your friends inside a nightclub or bar, 
-            <br \>
+            Going out is about having fun with your friends in any kind of bar or club. 
+            To often we find ourselves arguing about which club to go to tonight. 
+            May that be because we don't know if the clubs has a cool event or if it is actually worth it to go there. 
+            <br \><br \>
         		We, a small but ambitious group of students, are aiming to change the
-        		nightlife experience for the better. We are working to provide our users with
-        		information about queuing times and the number of people at local night clubs, all in real time.</p>
+        		nightlife experience for the better. We are working on providing our users with
+            information about events from clubs, bars and local student pubs. Furthermore our goal is to provide information
+            about queuing times and the number of people at any kind of venue, all in real time. Yes you read that correctly. 
+            The information shown in our app indicates how crowded a club is! <br \>
+            Perfect if you are at a preparty trying to decide which party you want to go to. Currently we are able 
+            to provide information about the events happening in Umea and are working hard on the queuing and crowd size part. 
+            <br \><br \>
+            This app can only be downloaded by receiving an invitation. If you would like to use this service type in your email 
+            adress in the subscribe field and hit send! We'll send you an invite as soon as we can. </p>
 			</p>
           </div>
         </div>
@@ -154,6 +168,7 @@
       </div>
     </section>
 
+    
 <!-- For Clubs -->
     <section id="clubs" class="clubs bg-pink">
       <div class="container">
@@ -437,12 +452,16 @@
      
 
     </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <script src="js/hideSubscribeBar.js"></script>
 
-  
-    
     <script data-cfasync="false" type="text/javascript"
     src="js/form-submission-handler.js"></script>
 </body>
