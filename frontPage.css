@@ -77,7 +77,12 @@ section h3.section-subheading {
     left: 0;
     z-index: 1030;
 }
-
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 #mainNav {
   background-color: black;
   }
@@ -381,4 +386,35 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #ef2d56;
+}
+
+.emailBar {
+    width: 100%;
+    background-color: #ef2d56;
+    color: white;
+}
+
+.thanks_one{
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+
+.email-input-one{
+  display: block;
+	width: 40vw;
+  padding: 10px;
+	border-radius: .25rem;
+}
+
+.sign-up-btn-two{
+  display: block;
+	width:80px;
+	background: #353535; 
+	color:white;
+	margin: 10px;
+	letter-spacing: .3px;
+	padding: 12px 10px;
+	border-width:0px;
+	border-radius: .25rem;
 }
