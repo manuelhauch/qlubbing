@@ -206,7 +206,6 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 4em;
-  font-style: ;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -227,7 +226,6 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 100px;
-    font-style: ;
     line-height: 40px;
     margin-bottom: 40px;
     font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -392,6 +390,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     width: 100%;
     background-color: #ef2d56;
     color: white;
+}
+
+.register-container{
+	background-color: #ededed;
+}
+
+.register-head{
+	text-align:center;
+	margin-left: 2.5em;
+	margin-right:2.5em;
+	
 }
 
 .thanks_one{
