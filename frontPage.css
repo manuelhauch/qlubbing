@@ -387,7 +387,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .emailBar {
-    width: 100%;
     background-color: #ef2d56;
     color: white;
 }
@@ -410,20 +409,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .email-input-one{
-  display: block;
-	width: 38vw;
-  padding: 10px;
+  display: inline-block;
+  width: 38vw;
+  margin: 1vw;
 	border-radius: .25rem;
 }
 
 .sign-up-btn-two{
-  display: block;
+  display: inline-block;
 	width:70px;
 	background: #353535; 
 	color:white;
-	margin: 10px;
 	letter-spacing: .3px;
-	padding: 12px 10px;
 	border-width:0px;
 	border-radius: .25rem;
 }
