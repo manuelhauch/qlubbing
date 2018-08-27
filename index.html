@@ -491,6 +491,22 @@
 
 
   </footer>
+  <!--Subscribe Popup-->
+  <div id="list-builder"></div>
+  <div id="popup-box">
+    <img src="img/close.png" id="popup-close" />
+    <div id="popup-box-content">
+        <h1>Get the free nightclub guide e-book</h1>
+        <form class="gform form-inline" method="POST" action="https://script.google.com/macros/s/AKfycbyURS_mUCqZ_uaaj_lbGrFtlKLyanZLrrFybW96a8l52zPZFr8/exec">
+          <div class="form-elements container form-inline">
+            <input id="email" name="email" type="email" class="email-input-one" placeholder="Your email" required="required" />
+            <button type="submit" class="sign-up-btn-two">Get It</button>
+          </div>
+          <div style="display:none;" class="thankyou_message register-head thanks_one">
+            Your free e-book is on it's way. Check your email inbox :). 
+          </div>
+        </form>
+    </div>
 
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
@@ -500,6 +516,8 @@
   <script type="text/javascript" src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <script type="text/javascript" src="js/hideSubscribeBar.js"></script>
+
+  <script type="text/javascript" src="js/list-builder.js"></script>
 
   <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
