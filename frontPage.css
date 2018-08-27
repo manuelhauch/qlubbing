@@ -33,6 +33,10 @@ h6 {
   border-color: black;
 }
 
+.clublabel{
+  margin-top:2px;
+}
+
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #ef2d56 !important;
   border-color: #ef2d56 !important;
