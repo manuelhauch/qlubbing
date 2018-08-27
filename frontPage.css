@@ -252,6 +252,13 @@ header.masthead .intro-text .intro-heading {
 	padding-bottom: 50px;
 }
 
+.e-book-description{
+  text-align: justify;
+  letter-spacing: 0.18em;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
 .bg-pink{
 	background-color: #ef2d56;
 }
@@ -395,6 +402,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     color: white;
 }
 
+.emailBar2 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  
+  margin: 0 auto;
+}
 .register-container{
 	background-color: #ededed;
 }
@@ -416,6 +429,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   display: inline-block;
   width: 38vw;
   margin: 1vw;
+	border-radius: .25rem;
+}
+
+.email-input-two{
+  display: inline-block;
+  width: 30vw;
 	border-radius: .25rem;
 }
 
